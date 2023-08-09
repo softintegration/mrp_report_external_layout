@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template inherit_id="mrp.report_mrporder" id="report_mrporder_inherited">
+        <xpath expr="//t[@t-call='web.internal_layout']" position="attributes">
+            <attribute name="t-call">web.external_layout</attribute>
+        </xpath>
+    </template>
+
+</odoo>
